@@ -1,23 +1,14 @@
-# OS
 .DS_Store
 Thumbs.db
-
-# Editor
 .idea/
 .vscode/
 *.swp
 *~
-
-# Shopify CLI / env
 .env
 .env.*
 .shopify/
 shopify.theme.toml
-
-# Node (if used later)
 node_modules/
 npm-debug.log*
-
-# Temp
 *.log
 .tmp/
