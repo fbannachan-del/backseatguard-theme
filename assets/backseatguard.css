@@ -1,0 +1,58 @@
+/* BackSeatGuard — clean brand polish */
+:root {
+  --bsg-radius: 0.6rem;
+}
+
+.banner__heading,
+.rich-text__heading,
+.multicolumn .title {
+  letter-spacing: -0.02em;
+}
+
+.banner__box {
+  max-width: 42rem;
+}
+
+.banner__text {
+  opacity: 0.92;
+  font-size: 1.15em;
+}
+
+.button,
+.shopify-challenge__button,
+button.shopify-payment-button__button--unbranded {
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+
+.card__heading a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.header__heading-link .h2,
+.header__heading {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.announcement-bar__message {
+  font-size: 1.3rem;
+  letter-spacing: 0.02em;
+}
+
+.footer {
+  font-size: 1.4rem;
+}
+
+/* Slightly calmer product cards */
+.card--card,
+.card--standard .card__inner {
+  border-radius: var(--bsg-radius);
+}
+
+@media screen and (min-width: 750px) {
+  .banner__heading {
+    font-size: clamp(3rem, 5vw, 5.2rem);
+  }
+}
