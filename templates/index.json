@@ -6,39 +6,35 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Keep the dog. Protect the seats.",
+            "heading": "Keep the dog.\nProtect the seats.",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Waterproof hammock cover for muddy paws, hair and claws.",
-            "text_style": "body"
+            "text": "The waterproof hammock cover dog owners actually use.",
+            "text_style": "subtitle"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop BackSeatGuard",
+            "button_label_1": "Shop the cover — $59",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_2": "How it works",
+            "button_link_2": "shopify://pages/about",
+            "button_style_secondary_2": true
           }
         }
       },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
+      "block_order": ["heading", "text", "button"],
       "settings": {
-        "image_overlay_opacity": 55,
-        "image_height": "medium",
+        "image_overlay_opacity": 60,
+        "image_height": "large",
         "desktop_content_position": "middle-center",
-        "show_text_box": false,
+        "show_text_box": true,
         "image_behavior": "none",
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
@@ -53,8 +49,8 @@
         "col1": {
           "type": "column",
           "settings": {
-            "title": "Waterproof",
-            "text": "<p>Wipe clean after wet and muddy walks.</p>",
+            "title": "01 — Waterproof",
+            "text": "<p>Mud, rain and accidents wipe straight off.</p>",
             "link_label": "",
             "link": ""
           }
@@ -62,8 +58,8 @@
         "col2": {
           "type": "column",
           "settings": {
-            "title": "Easy install",
-            "text": "<p>Straps to headrests in under a minute.</p>",
+            "title": "02 — 60-second fit",
+            "text": "<p>Straps to headrests. No tools. No drama.</p>",
             "link_label": "",
             "link": ""
           }
@@ -71,33 +67,29 @@
         "col3": {
           "type": "column",
           "settings": {
-            "title": "30-day guarantee",
-            "text": "<p>Clean-seat promise. We’ve got you covered.</p>",
+            "title": "03 — 30-day guarantee",
+            "text": "<p>Clean seats or we make it right.</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
-      "block_order": [
-        "col1",
-        "col2",
-        "col3"
-      ],
+      "block_order": ["col1", "col2", "col3"],
       "settings": {
-        "title": "Why BackSeatGuard",
-        "heading_size": "h2",
+        "title": "Why dog owners switch",
+        "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
+        "column_alignment": "left",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 48,
-        "padding_bottom": 24
+        "padding_top": 56,
+        "padding_bottom": 56
       }
     },
     "featured_collection": {
@@ -105,12 +97,12 @@
       "settings": {
         "title": "The cover",
         "heading_size": "h1",
-        "description": "<p>Heavy-duty waterproof hammock for cars and SUVs.</p>",
+        "description": "<p>One product. Built for muddy weekends and leather seats.</p>",
         "show_description": true,
-        "description_style": "body",
+        "description_style": "subtitle",
         "collection": "all",
-        "products_to_show": 4,
-        "columns_desktop": 2,
+        "products_to_show": 3,
+        "columns_desktop": 3,
         "color_scheme": "scheme-1",
         "full_width": false,
         "show_view_all": false,
@@ -124,8 +116,8 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 52
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "rich_text": {
@@ -134,38 +126,34 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Built for real dogs and real cars",
-            "heading_size": "h2"
+            "heading": "Stop vacuuming the back seat every week.",
+            "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Mud, hair, claws and chaos stay on the cover—not your back seat. Simple install. Easy clean. 30-day clean-seat guarantee.</p>"
+            "text": "<p>BackSeatGuard is a simple waterproof hammock cover. Install in under a minute. Wipe clean. Keep the car looking like a car.</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Shop now",
+            "button_label": "Get BackSeatGuard",
             "button_link": "shopify://collections/all",
             "button_style_secondary": false,
             "button_style_outline": false
           }
         }
       },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
+      "block_order": ["heading", "text", "button"],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-4",
         "full_width": true,
-        "padding_top": 52,
-        "padding_bottom": 52
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     }
   },
